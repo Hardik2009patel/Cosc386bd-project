@@ -7,13 +7,10 @@
   <h3>The Leading International Car Dealership</h3>
 </head>
 <body>
-  <input type="text" id=search value=search />
+  
   <style>
   body{
-    background-color: #D3D3D3;
-	 
-	
-	
+    background-color: white;	
   }
 
   .dropbtn {
@@ -66,18 +63,74 @@
   </style>
   </head>
   <body>
-    <?php
-      $connection=mysql_connect(’acadweb1’, ’tlanzi1’, ’tlanzi1’, ’tlanzilDB’);?>
-
-  <div class="dropdown">
-    <button class="dropbtn">MENU</button>
-    <div class="dropdown-content">
-      <a href="../COSC386/Page2.html">Dealerships</a>
-      <a href="../COSC386/Page3.html">Cars</a>
-      <a href="../COSC386/Page4.html">About us</a>
-      <a href="../COSC386/Page5.html">Contact us</a>
-    </div>
-  </div>
+   
+    <h4> 
+		Dealership 
+		<select>		 
+		 <option disabled selected value> -- select an option -- </option>
+		</select>
+	</h4>
+	<h4> 
+		condition 
+		<select>		 
+		 <option disabled selected value> -- select an option -- </option>
+			<option>New</option>
+			<option>Used</option>
+		</select>
+	</h4>
+   <h4> 
+		Make 
+		<select>		 
+		 <option disabled selected value> -- select an option -- </option>
+		</select>
+	</h4>
+	<h4> 
+		model
+		<select>		 
+		 <option disabled selected value> -- select an option -- </option>
+		</select>
+	</h4>
+	<h4> 
+		year
+		<select>		 
+		 <option disabled selected value> -- select an option -- </option>
+		</select>
+	</h4>
+	 
+	<h4> 
+		Body Type 
+		<select>		 
+		 <option disabled selected value> -- select an option -- </option>
+		</select>
+	</h4>
+	<h4> 
+		Color 
+		<select>		 
+		 <option disabled selected value> -- select an option -- </option>
+		</select>
+	</h4>
+	
+	<h4> 
+		Price  Range From
+		<select>		 
+		 <option disabled selected value> -- select an option -- </option>
+		</select>
+		 To 
+		<select>		 
+		 <option disabled selected value> -- select an option -- </option>
+		</select>
+	</h4>
+	
+	<h4> 
+		Mileage Minimum
+		<select>		 
+		 <option disabled selected value> -- select an option -- </option>
+		</select>
+		 Maximum 
+		<select>		 
+		 <option disabled selected value> -- select an option -- </option>
+		</select>
+	</h4>
   <bottom>
     <a style="position:relative; font-size: 25; color: black; padding-right: 15px; float: right; text-decoration: none; " href="../COSC386/Page2.html">About us</a>
     <a style="position:relative; font-size: 25; color: black; padding-right: 15px; float: right; text-decoration: none;" href="../page3.html">Admin Login</a>
