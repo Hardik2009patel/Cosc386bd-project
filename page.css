@@ -1,12 +1,25 @@
-
 h1,h3{
   text-align: center;
-  background: #00AFFF;
+  background: #003F87;
   color: white;
+  padding: 5px;
+}
+h3{
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+
+#formItem label {
+    display: block;
+    text-align: center;
+    line-height: 150%;
+    font-size: .85em;
 }
 
 
- 
 
-
- 
+body{
+  color: black
+}

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,12 +8,11 @@
   <h3>The Leading International Car Dealership</h3>
 </head>
 <body>
-  
+
   <style>
   body{
-    background-color: white;	
+    background-color: white;
   }
-
   .dropbtn {
       background-color: black;
       color: white;
@@ -21,12 +21,10 @@
       border: none;
       cursor: pointer;
   }
-
   .dropdown {
       position: relative;
       display: inline-block;
   }
-
   .dropdown-content {
       display: none;
       position: absolute;
@@ -35,20 +33,16 @@
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
   }
-
   .dropdown-content a {
       color: black;
       padding: 12px 16px;
       text-decoration: none;
       display: block;
   }
-
   .dropdown-content a:hover {background-color: #f1f1f1}
-
   .dropdown:hover .dropdown-content {
       display: block;
   }
-
   .dropdown:hover .dropbtn {
       background-color: black;
   }
@@ -57,84 +51,92 @@
 	  position:absolute;
 	  bottom: 5%;
 	  right: 2%;
-	  
+
   }
-  
+
   </style>
   </head>
   <body>
-   
-    <h4> 
-		Dealership 
-		<select>		 
+  <center>
+  <div >
+  <form action="page5.html">
+    <label for="dname"> Dealership</label>	 
+	<select>
+		<option disabled selected value> -- select an option -- </option>
+	</select>	
+	 <br></br>
+	<label for="con">condition</label>
+	<select>
+		<option disabled selected value> -- select an option -- </option>
+		<option>New</option>
+		<option>Used</option>
+	</select>
+	 <br></br>
+	<label for="mad">Make</label>
+  		<select>
 		 <option disabled selected value> -- select an option -- </option>
 		</select>
-	</h4>
-	<h4> 
-		condition 
-		<select>		 
-		 <option disabled selected value> -- select an option -- </option>
-			<option>New</option>
-			<option>Used</option>
-		</select>
-	</h4>
-   <h4> 
-		Make 
-		<select>		 
+		 <br></br>
+	<label for="mod">Model</label>		 
+		<select>
 		 <option disabled selected value> -- select an option -- </option>
 		</select>
-	</h4>
-	<h4> 
-		model
-		<select>		 
-		 <option disabled selected value> -- select an option -- </option>
-		</select>
-	</h4>
-	<h4> 
-		year
-		<select>		 
-		 <option disabled selected value> -- select an option -- </option>
-		</select>
-	</h4>
+	
+	<br></br>
 	 
-	<h4> 
-		Body Type 
-		<select>		 
+	<label for="year">year</label>
+		 
+		<select>
 		 <option disabled selected value> -- select an option -- </option>
 		</select>
-	</h4>
-	<h4> 
-		Color 
-		<select>		 
+		<label for="To">To</label>
+		<select>
 		 <option disabled selected value> -- select an option -- </option>
 		</select>
-	</h4>
-	
-	<h4> 
-		Price  Range From
-		<select>		 
+		 <br></br>
+	 <label for="BodyType">Body Type</label>
+		<select>
 		 <option disabled selected value> -- select an option -- </option>
 		</select>
-		 To 
-		<select>		 
+	 
+	  <br></br>
+		 <label for="color">color</label>
+		<select>
+		 <option disabled selected value> -- select an option -- </option>
+		</select> 
+
+	  <br></br>
+		<label for="price">Price Range From</label>
+		<select>
 		 <option disabled selected value> -- select an option -- </option>
 		</select>
-	</h4>
-	
-	<h4> 
-		Mileage Minimum
-		<select>		 
+		<label for="price">To</label>
+		<select>
 		 <option disabled selected value> -- select an option -- </option>
 		</select>
-		 Maximum 
-		<select>		 
+	  <br></br>
+		<label for="Mileage">Mileage Minimum</label>
+		<select>
 		 <option disabled selected value> -- select an option -- </option>
 		</select>
-	</h4>
+		 <label for="Mileage">Mileage Maximum</label>
+		<select>
+		 <option disabled selected value> -- select an option -- </option>
+		</select>
+		<br></br>
+		<button type="button" name="search">Search</button>
+	</center>
+</form>
+</div>
+<style>
+.search{
+  text-align: center;
+  color: #003F87;
+}
+</style>
   <bottom>
-    <a style="position:relative; font-size: 25; color: black; padding-right: 15px; float: right; text-decoration: none; " href="../COSC386/Page2.html">About us</a>
-    <a style="position:relative; font-size: 25; color: black; padding-right: 15px; float: right; text-decoration: none;" href="../page3.html">Admin Login</a>
-    <a 
+    <a style="position:relative; font-size: 25; color: black; padding-right: 15px; float: right; text-decoration: none; " href="about.html">About us</a>
+    <a style="position:relative; font-size: 25; color: black; padding-right: 15px; float: right; text-decoration: none;" href="Login.html">Admin Login</a>
   </bottom>
 </body>
 </html>
