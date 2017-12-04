@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>I.T.C.H Corperation</title>
+  <link rel="stylesheet" type="text/css" href="page.css">
+  <h1>I.T.C.H Corperation</h1>
+  <h3> Insert Vehicle</h3>
+</head>
+ <a style="color: white; background-color: #003F87; padding: 3px" href="adminHome.html">Admin Home</a> <br></br>
+<style>
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #003F87;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
+<body>
+
+ 
+
+<div class="container">
+  <form action="adminHome.html">
+    <label for="VIN">VIN  Number</label>
+    <input type="text" id="VIN" name="VIN N" placeholder="VIN Number">
+
+    <label for="body">Body Type</label>
+    <input type="text" id="body" name="Body Type" placeholder="Body Type">
+	<label for="Color">Color</label>
+    <input type="text" id="Color" name="Color" placeholder="red, black, gray, etc...">
+	
+	 <label for="Year">Year</label>
+    <input type="text" id="Year" name="Year" placeholder="2000..">
+    <label for="Price">Price</label>
+    <input type="text" id="Price" name="Price" placeholder="$10,000">
+	
+    
+    <label  for="Make">Make </label>
+    <select id="Make" name="Make">
+     <option disabled selected value> -- select an option -- </option>
+    </select>
+	
+	 <label <label for="Manufactor">Manufactor </label>
+    <select id="Manufactor" name="Manufactor">
+     <option disabled selected value> -- select an option -- </option>
+    </select>
+	 <label <label for="DelaershipN">Dealership </label>
+    <select id="DelaershipN" name="DelaershipN">
+     <option disabled selected value> -- select an option -- </option>
+    </select>
+
+    <input type="submit" value="Insert">
+  </form>
+</div>
+</body>
+</html>
