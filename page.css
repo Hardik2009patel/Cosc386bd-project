@@ -4,17 +4,13 @@ h1,h3{
   color: white;
   padding: 5px;
 }
-h3{
+h3, h4{
   text-align: center;
 }
-h4{
-  text-align: center;
-}
-
 #formItem label {
     display: block;
     text-align: center;
-    line-height: 150%;
+    line-height: 300%;
     font-size: .85em;
 }
 
@@ -160,7 +156,7 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #000000;
+  background-color: #003F87;
 }
 
 .topnav a {
@@ -182,13 +178,10 @@ body {
   color: white;
 }
 
-.img-responsive {
-    padding-left: 3px;
-    padding-right: 3px;
-}
+
 
 .button {
-    background-color: #000000; 
+    background-color: #003F87; 
     border-radius: 0px;
     color: white;
     padding: 14px 16px;

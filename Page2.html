@@ -1,28 +1,115 @@
 <!DOCTYPE html>
 <html>
 <head>
+ 
   <title>I.T.C.H Corperation</title>
   <link rel="stylesheet" type="text/css" href="page.css">
+  <div class="topnav" style="height: 150px;">
   <h1>I.T.C.H Corperation</h1>
-  <h3>Dealerships</h3>
+  <h3>The Leading International Car Dealership</h3>
+  <style="margin-bottom: -10px; margin-top: -10px"></a>   
+   </div>
 </head>
-<a style="color: white; background-color: #003F87; padding: 3px" href="Page1.html">Home</a> <br></br>
-<body>
-
+<br>
+ <div class="topnav" style="height: 40px;">
+ <a style="position:relative; font-size: 25; color: ; padding-left: 15px; float: left; text-decoration: none; " href="Page1.html">Home</a> 
+ <a style="position:relative; font-size: 25; color: ; padding-left: 15px; float: left; text-decoration: none;" href="Login.html">Admin Login</a> 
+ <a style="position:relative; font-size: 25; color: ; padding-left: 15px; float: left; text-decoration: none; " href="Dealerships.html">Dealerships</a>
+ <a style="position:relative; font-size: 25; color: ; padding-left: 15px; float: left; text-decoration: none; " href="about.html">About us</a>
+    
   </style>
   </head>
-  <body>
-<div class="columns">
-  <ul class="price">
-      <li class="header">Make: </li>
-      <li class="header">Model:</li>
-      <li class="header">Year:</li>
-      <li class="header">Price: </li>
-	  <li class="header">condition: </li>
-	  <li class="header">Body Type:</li>
-	  <li class="header">Color: </li>
-      <li class="header"><a href="contact.html"><button>Contact Us</button></a></li>
-  </ul>
+   <style="margin-bottom: -10px; margin-top: -10px"></a>      
+  </div>
+	  <br></br>
+<style>
+button {
+    background-color: #003F87;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+th{
+  border: 1px solid black;
+  text-align: center;
+  background: #003F87;
+  color: white;
+}
+table, th, td{
+  border: 1px solid black;
+  text-align: center;
+}
+input[type=text], select{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit]:hover {
+    background-color: #003F87;
+}
+h4{
+  text-align: left;
+  width: 40%;
+}
+</style>
+<body>
+
+  <table><tr><th>Make</th><th>Model</th><th>Year</th><th>Body Type</th><th>Color</th><th>Mileage</th><th>Dealership</th><th>VIN</th</tr><tr><td>Chevrolet</td><td>Camaro</td><td>2013</td><td>Coupe</td><td>Red</td>
+         <td>43000</td><td>ITCH Toyota Salisbury</td><td>12345678945876459</td></tr><tr><td>Chevrolet</td><td>SS</td><td>2015</td><td>Sedan</td><td>Red</td>
+         <td>24000</td><td>ITCH Chevrolet Salisbury</td><td>22231457896548721</td></tr><tr><td>Toyota</td><td>Camry</td><td>2017</td><td>Sedan</td><td>Blue</td>
+         <td>0</td><td>ITCH Toyota Salisbury</td><td>23145687459214578</td></tr><tr><td>Ford</td><td>Mustang</td><td>2017</td><td>Coupe</td><td>White</td>
+         <td>0</td><td>ITCH Ford Salisbury</td><td>32514657845741259</td></tr><tr><td>Chevrolet</td><td>Suburban</td><td>2017</td><td>SUV</td><td>Black</td>
+         <td>0</td><td>ITCH Chevrolet Salisbury</td><td>45612378954761258</td></tr><tr><td>Toyota</td><td>Corolla</td><td>2017</td><td>Sedan</td><td>Grey</td>
+         <td>0</td><td>ITCH Toyota Salisbury</td><td>56321478952467859</td></tr><tr><td>Toyota</td><td>RAV4</td><td>2013</td><td>SUV</td><td>Red</td>
+         <td>46000</td><td>ITCH Chevrolet Salisbury</td><td>67895421354678951</td></tr><tr><td>Toyota</td><td>Sienna</td><td>2007</td><td>Van</td><td>Green</td>
+         <td>112000</td><td>ITCH Ford Salisbury</td><td>75498621354689574</td></tr><tr><td>Chevrolet</td><td>Corvette Z06</td><td>2018</td><td>Coupe</td><td>Yellow</td>
+         <td>0</td><td>ITCH Chevrolet Salisbury</td><td>85476215439857461</td></tr><tr><td>Chevrolet</td><td>Impala</td><td>2005</td><td>Sedan</td><td>White</td>
+         <td>132000</td><td>ITCH Toyota Salisbury</td><td>95764821465378549</td></tr></table><br></br><br></br><br></br>
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="InfoR.php" method="post">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="First name.."><br></br>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Last name.."><br></br>
+
+    <label for="cnumber">Contact Number</label>
+    <input type="text" id="cnumber" name="ContactNumber" placeholder="Contact Number"><br></br>
+
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="Email_t" placeholder="I.T.C.Hcorperation@coperation.com"><br></br>
+
+    <h4>
+     VIN (Check list above for specific VIN number)
+     <select name="VIN_t">
+      <option disabled selected value>--select an option--</option>
+      <option>12345678945876459</option><option>22231457896548721</option><option>45612378954761258</option><option>85476215439857461</option><option>95764821465378549</option><option>32514657845741259</option><option>23145687459214578</option><option>56321478952467859</option><option>67895421354678951</option><option>75498621354689574</option>     </select><br></br>
+   </h4>
+
+    <label for="comment">Comment (120 character)</label>
+    <textarea id="comment" name="Comment_t" placeholder="Write comment..." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
 </div>
+
 </body>
 </html>
